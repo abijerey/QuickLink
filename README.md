@@ -28,8 +28,8 @@ A full-stack URL shortening service with Redis caching, analytics, and a modern 
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/url-shortener.git
-cd url-shortener
+git clone https://github.com/yourusername/QuickLink.git
+cd QuickLink
 ```
 
 2. **Create virtual environment**
@@ -106,10 +106,10 @@ Services will be available at:
 ### Manual Docker Build
 ```bash
 # Build backend image
-docker build -t url-shortener-backend .
+docker build -t QuickLink-backend .
 
 # Run backend container
-docker run -d -p 8000:8000 --env-file .env url-shortener-backend
+docker run -d -p 8000:8000 --env-file .env QuickLink-backend
 ```
 
 ## 🧪 Testing
