@@ -1,4 +1,4 @@
-# URL Shortener - Production Ready
+# QuickLink - Production Ready
 
 A full-stack URL shortening service with Redis caching, analytics, and a modern React frontend.
 
